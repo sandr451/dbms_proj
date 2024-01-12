@@ -1,0 +1,1 @@
+insert into dbmsproj.delivery_person VALUES('Sonu Zomato wala', null , 1001)

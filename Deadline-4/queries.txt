@@ -1,0 +1,10 @@
+1.select where
+2.update 
+3 delete
+4 avg
+5 equality join
+6 out of stock
+7 constraint 
+8 update
+9group by seller
+10Division

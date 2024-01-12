@@ -1,0 +1,1 @@
+delete from order_info where Seller_ID = 101

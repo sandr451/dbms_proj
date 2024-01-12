@@ -1,0 +1,19 @@
+
+
+
+bulk data
+report
+constraints
+
+create table Ret_rep_requests( 
+o_id int not null, foreign key (o_id) references orders(order_id),
+adm int not null ,constraint approved_by foreign key(adm) references admin(adm_username),
+product int not null , foreign key (product) references order_details(prod_id),
+del_per int not null , constraint to_be_picked_by foreign key (del_per) references delivery_person(dp_id))
+
+
+
+constraint eligible_for_ret_or_rep 
+check (
+((Select ret_rep_eligibilty from order_details 
+where (select o_id from Ret_rep_requests)=order_id))=1))

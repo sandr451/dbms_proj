@@ -1,0 +1,13 @@
+payment_method,Cust_ID,Unique_ID
+upi,502,1
+debit_card,278,2
+debit_card,755,3
+COD
+,39,4
+online_banking,223,5
+online_banking,880,6
+upi,801,7
+upi,2,8
+debit_card,690,9
+upi,11,10
+

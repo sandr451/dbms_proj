@@ -1,0 +1,1 @@
+select ord_id from dbmsproj.order_details where ret_rep_elig = 1 and money_to_be_collected > 1000
